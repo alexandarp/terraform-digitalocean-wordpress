@@ -1,4 +1,4 @@
-# terraform-wordpress-digitalocean
+# terraform-digitalocean-wordpress
 
 A Terraform module for creating a fully functional WordPress Droplet.
 
@@ -36,7 +36,7 @@ Create a file with a `.tf` extension, and add the following
 
 ```
 module "wordpress" {
-  source = "git::ssh://git@github.com/alexandarp/terraform-wordpress-digitalocean"
+  source = "git::ssh://git@github.com/alexandarp/terraform-digitalocean-wordpress"
   name = "my-wordpress-droplet"
 }
 ```

@@ -28,7 +28,7 @@ https://www.digitalocean.com/community/tutorials/how-to-use-the-digitalocean-api
 
 ## Example
 
-Take a look at [example.tf](./example/example.tf) for a working example.
+Take a look at [example.tf](./examples/example.tf) for a working example.
 
 ## Create a file
 
@@ -37,7 +37,7 @@ Create a file with a `.tf` extension, and add the following
 ```
 module "wordpress" {
   source  = "alexandarp/wordpress/digitalocean"
-  version = "1.0.2"
+  version = "1.0.3"
   name = "my-wordpress-droplet"
 }
 ```

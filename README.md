@@ -26,9 +26,9 @@ Defaults:
 
 https://www.digitalocean.com/community/tutorials/how-to-use-the-digitalocean-api-v2#how-to-generate-a-personal-access-token
 
-## Example
+## Examples
 
-Take a look at [example.tf](./examples/example.tf) for a working example.
+Take a look at [wordpress.tf](./examples/wordpress.tf) for a working example.
 
 ## Create a file
 

@@ -32,6 +32,12 @@ Take a look at [example.tf](./example/example.tf) for a working example.
 
 ## Applying the changes
 
+Initialize Terraform:
+
+```
+terraform init
+```
+
 Review your changes:
 
 ```

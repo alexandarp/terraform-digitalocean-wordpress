@@ -28,7 +28,7 @@ https://www.digitalocean.com/community/tutorials/how-to-use-the-digitalocean-api
 
 ## Examples
 
-Take a look at [wordpress.tf](./examples/wordpress.tf) for a working example.
+Take a look at [wordpress.tf](./examples/basic/wordpress.tf) for a working example.
 
 ## Create a file
 

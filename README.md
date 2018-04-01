@@ -37,7 +37,7 @@ Create a file with a `.tf` extension, and add the following
 ```
 module "wordpress" {
   source  = "alexandarp/wordpress/digitalocean"
-  version = "1.0.0"
+  version = "1.0.2"
   name = "my-wordpress-droplet"
 }
 ```
@@ -64,7 +64,11 @@ Apply your changes:
 terraform apply -auto-approve
 ```
 
-After about a minute, Terraform will output the IP address of the Droplet.
+Output Droplet information:
+
+```
+terraform show
+```
 
 ## Enabling WordPress
 

@@ -36,7 +36,8 @@ Create a file with a `.tf` extension, and add the following
 
 ```
 module "wordpress" {
-  source = "git::ssh://git@github.com/alexandarp/terraform-digitalocean-wordpress"
+  source  = "alexandarp/wordpress/digitalocean"
+  version = "1.0.0"
   name = "my-wordpress-droplet"
 }
 ```

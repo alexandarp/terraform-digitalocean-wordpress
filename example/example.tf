@@ -1,4 +1,5 @@
 module "example" {
-  source = "git::ssh://git@github.com/alexandarp/terraform-digitalocean-wordpress"
+  source  = "alexandarp/wordpress/digitalocean"
+  version = "1.0.0"
   name = "example-wordpress-droplet"
 }

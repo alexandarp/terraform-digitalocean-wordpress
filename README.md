@@ -30,7 +30,20 @@ https://www.digitalocean.com/community/tutorials/how-to-use-the-digitalocean-api
 
 Take a look at [example.tf](./example/example.tf) for a working example.
 
-## Applying the changes
+## Create a file
+
+Create a file with a `.tf` extension, and add the following
+
+```
+module "wordpress" {
+  source = "git::ssh://git@github.com/alexandarp/terraform-wordpress-digitalocean"
+  name = "my-wordpress-droplet"
+}
+```
+
+You can overwrite more default variables if you need to.
+
+## Launching the Droplet
 
 Initialize Terraform:
 

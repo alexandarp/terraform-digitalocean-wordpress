@@ -1,6 +1,6 @@
 variable "image" {
-	description = "The Droplet image ID or slug"
-  default = "wordpress-16-04"
+  description = "The Droplet image ID or slug"
+  default = "wordpress-18-04"
 }
 
 variable "name" {

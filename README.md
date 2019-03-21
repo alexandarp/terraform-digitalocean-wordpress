@@ -6,7 +6,7 @@ A Terraform module for creating a fully functional WordPress Droplet.
 
 Defaults:
 
-* `image` - The Droplet image ID or slug, defaults to `wordpress-16-04`
+* `image` - The Droplet image ID or slug, defaults to `wordpress-18-04`
 * `name` - The name of the Droplet, defaults to `wordpress`
 * `region` - The region of the Droplet, defaults to `nyc1`
 * `size` - The instance size, defaults to `1gb`

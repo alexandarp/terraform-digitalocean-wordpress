@@ -37,7 +37,7 @@ Create a file with a `.tf` extension, and add the following
 ```
 module "wordpress" {
   source  = "alexandarp/wordpress/digitalocean"
-  version = "1.0.5"
+  version = "1.0.7"
   name = "my-wordpress-droplet"
 }
 ```
